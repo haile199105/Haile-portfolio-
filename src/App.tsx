@@ -659,7 +659,7 @@ export default function App() {
 
                 <div className="flex justify-center gap-8 mt-16">
                   {[
-                    { icon: <Linkedin />, url: "https://www.linkedin.com/in/haile-shibru-763418327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"label: "LinkedIn" },
+                    { icon: <Linkedin />, url: "https://www.linkedin.com/in/haile-shibru-763418327" label: "LinkedIn" },
                     { icon: <Github />, url: "https://github.com/haileshibru", label: "GitHub" }
                   ].map((social, i) => (
                     <motion.a 
